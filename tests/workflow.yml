@@ -16,11 +16,15 @@ tests:
             Content-Type: application/json
             accept: application/json
           json:
-            name: culpa aliquip anim Duis dolor
+            name: eu mollit cupidatat
             photoUrls:
-              - occaecat anim aliqua exercitation nisi
-              - Excepteur dolore dolor
-            status: sold
+              - officia magna
+              - Ut ipsum aute incididunt
+              - cillum amet
+              - ullamco anim aliqua
+              - pariatur tempor Ut deserunt ullamco
+            status: pending
+            id: 21811319
           check:
             status: 200
             schema:
@@ -34,25 +38,30 @@ tests:
             Content-Type: application/json
             accept: application/json
           json:
-            name: culpa in cupidatat minim tempor
+            name: minim
             photoUrls:
-              - ex
-              - veniam Ut quis officia eu
-              - quis adipisicing commodo
-            status: sold
-            id: 10253436
-            category:
-              id: 62604957
-              name: in
-              anim_45e: false
+              - occaecat ut adipisicing
+              - anim officia dolor
+              - dolor labore in est
+              - amet velit sunt id
+            id: -78886882
             tags:
-              - name: enim labore irure anim
-                quisa: 96177876.27938941
-                do9: dolore esse labore aliqua
-                velit_6: 91318223.6252971
-                qui52: false
-                ut_cd: true
-                incididunt_9: anim sunt in incididunt eiusmod
+              - id: -91784438
+                name: ad aute ex non
+                dolore9: ut dolor ipsum
+                occaecat_4f2: -14293912
+                culpa_1: -96810381
+              - id: 88073512
+                name: Lorem sunt aliqua cillum
+                esse81b: false
+                utd0: -30910346.790296912
+              - id: -39927882
+                name: tempor
+              - name: cupidatat proident
+                dolore_c6: -44154353
+            category:
+              id: -17227251
+              name: ut
           check:
             status: 200
             schema:
@@ -77,9 +86,11 @@ tests:
           method: GET
           params:
             tags:
-              - mollit minim sed et non
-              - tempor eu mollit quis ex
-              - elit exercitation eu
+              - ipsum
+              - occaecat
+              - deserunt ut ea est elit
+              - occaecat est esse
+              - culpa ipsum ad
           check:
             status: 200
             schema:
@@ -101,8 +112,8 @@ tests:
           url: /pet/{petId}
           method: POST
           params:
-            name: Lorem voluptate eiusmod ad
-            status: consectetur minim id eu
+            name: quis
+            status: culpa
           check:
             status: 405
       - id: deletePet
@@ -111,7 +122,7 @@ tests:
           url: /pet/{petId}
           method: DELETE
           headers:
-            api_key: eu
+            api_key: fugiat commodo
           check:
             status: 400
       - id: uploadFile
@@ -120,7 +131,7 @@ tests:
           url: /pet/{petId}/uploadImage
           method: POST
           params:
-            additionalMetadata: amet et
+            additionalMetadata: qui aliqua
           headers:
             Content-Type: application/octet-stream
           body:
@@ -153,12 +164,9 @@ tests:
             Content-Type: application/json
             accept: application/json
           json:
-            shipDate: "2022-09-29T17:19:48.0Z"
-            petId: 6870868
-            status: approved
-            complete: true
-            quantity: 76386432
-            id: -33288545
+            Lorem_7ec: 10607420
+            voluptate_b_: 57407623
+            officia06: in dolore
           check:
             status: 200
             schema:
@@ -191,8 +199,15 @@ tests:
             Content-Type: application/json
             accept: application/json
           json:
-            id: -27416805
-            username: officia
+            lastName: incididunt
+            email: elit in Duis occaecat
+            phone: adipisicing esse incididunt
+            username: aliquip labore
+            firstName: officia pariatur esse
+            userStatus: -87744470
+            password: elit ea commodo exercitation
+            id: -85037851
+            et_10a: -10997786
           check:
             status: 200
             schema:
@@ -206,17 +221,12 @@ tests:
             Content-Type: application/json
             accept: application/json
           json:
-            - id: 88719902
-              lastName: elit enim eu laborum
-              firstName: mollit ut sit quis dolore
-              password: qui
-              email: enim Ut culpa Duis
-              phone: veniam
-              sunt__a: sit Ut sint
-              consequat_1a5: proident quis enim ut exercitation
-              exercitation6: -71547070
-              quis_0: 66584366.38534883
-              reprehenderit_44c: -67214020.52852508
+            - magnada5: reprehenderit
+              in_28: false
+              ad_c6: 60915060
+              deserunt_0: false
+              incididuntc62: -9084814.303356394
+              dolor_3: -44755505.90793849
           check:
             status: 200
             schema:
@@ -227,8 +237,8 @@ tests:
           url: /user/login
           method: GET
           params:
-            username: ea pariatur velit
-            password: dolor sint
+            username: exercitation aliqua Duis sed qui
+            password: cupidatat ipsum commodo mollit cillum
           check:
             status: 200
             schema:
@@ -258,13 +268,16 @@ tests:
             Content-Type: application/json
             accept: application/json
           json:
-            firstName: adipisicing
-            id: -5958458
-            password: Lorem amet
-            email: cupidatat ullamco in laborum dolore
-            aliquipa: nisi aute Ut minim dolore
-            enimf: in Lorem pariatur Excepteur
-            nostrud_38: 4649500
+            username: eiusmod Ut veniam elit
+            password: occaecat
+            phone: ad
+            id: 96585676
+            email: proident irure deserunt laborum adipisicing
+            lastName: aliqua culpa veniam magna
+            sed4: id sed
+            reprehenderit_e: false
+            labored: -66332576
+            ipsumb57: true
           check:
             status: 200
       - id: deleteUser
